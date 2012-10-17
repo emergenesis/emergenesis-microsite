@@ -1,0 +1,60 @@
+// Variables.less
+// Variables to customize the look and feel of Bootstrap
+// -----------------------------------------------------
+
+// Accent colors
+// -------------------------
+@fuschia:                #AD235E;
+@fuschiaLight:           #CD437E;
+
+// Links
+// -------------------------
+@linkColor:             #5D7C7F;
+@linkColorHover:        @fuschia;
+
+
+// Typography
+// -------------------------
+@sansFontFamily:        "Numans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@serifFontFamily:       Georgia, "Times New Roman", Times, serif;
+@monoFontFamily:        Menlo, Monaco, Consolas, "Courier New", monospace;
+
+@baseFontSize:          18px;
+@baseFontFamily:        @sansFontFamily;
+@baseLineHeight:        28px;
+@altFontFamily:         @serifFontFamily;
+
+
+// Buttons
+// -------------------------
+@btnPrimaryBackground:              @linkColor;
+@btnPrimaryBackgroundHighlight:     spin(@linkColor, 30%);
+
+@btnEmergenesisBackground:          @fuschia;
+@btnEmergenesisBackgroundHighlight: @fuschiaLight;
+
+
+// Dropdowns
+// -------------------------
+@dropdownLinkBackgroundHover:   #7D9C9F;
+
+
+// Sprite icons path
+// -------------------------
+@iconSocialPath:          '/assets/images/social-icons/24x24';
+
+
+// GRID
+// --------------------------------------------------
+
+// Default 940px grid
+// -------------------------
+@gridColumns:             12;
+@gridColumnWidth:         50px;
+@gridGutterWidth:         12px;
+@gridRowWidth:            (@gridColumns * @gridColumnWidth) + (@gridGutterWidth * (@gridColumns - 1));
+
+// Fluid grid
+// -------------------------
+@fluidGridColumnWidth:    6.382978723%;
+@fluidGridGutterWidth:    2.127659574%;
