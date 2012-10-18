@@ -709,24 +709,30 @@ a:hover {
   margin: 30px 0;
   color: #ffffff;
   font-size: 80px;
-  line-height: 1.0;
+  line-height: 1.1;
 }
 .headline .emphasis {
   color: #7D99CF;
 }
+.headline .bold {
+  color: #ad235e;
+}
+.headline .i {
+  font-style: italic;
+}
 .footer .highlighted-project img {
   border-radius: 10px;
   background-color: #5b7290;
-  opacity: .9;
+  opacity: .75;
   -webkit-transition: opacity 0.15s linear;
   -moz-transition: opacity 0.15s linear;
   -o-transition: opacity 0.15s linear;
   transition: opacity 0.15s linear;
 }
 .footer .highlighted-project img:hover {
-  opacity: .5;
+  opacity: .25;
 }
-.footer .span7 {
+.footer .label.right {
   text-align: right;
 }
 .nav-social {
@@ -734,12 +740,13 @@ a:hover {
   height: 100px;
   overflow: hidden;
   margin: 0;
+  float: right;
 }
 .nav-social li {
   display: block;
+  float: left;
   list-style: none;
-  float: right;
-  margin: 17px 0 0 10px;
+  margin: 0 0 0 10px;
   padding: 0;
 }
 .pull-right {

@@ -1,0 +1,71 @@
+// Responsive.less
+// For phone and tablet devices
+// -------------------------------------------------------------
+
+
+// REPEAT VARIABLES & MIXINS
+// -------------------------
+// Required since we compile the responsive stuff separately
+
+@import "variables.less";
+@import "bootstrap/mixins.less";
+
+
+// RESPONSIVE CLASSES
+// ------------------
+
+@import "bootstrap/responsive-utilities.less";
+
+
+// MEDIA QUERIES
+// ------------------
+
+// Large desktops
+@import "bootstrap/responsive-1200px-min.less";
+
+// Tablets to regular desktops
+@import "bootstrap/responsive-768px-979px.less";
+
+// Phones to portrait tablets and narrow desktops
+@import "bootstrap/responsive-767px-max.less";
+
+
+// Large Desktops
+// --------------
+
+@media (min-width: 1400px) {
+    // The media icons will no longer appear vertically centered with the
+    // citeplasm logo, so we push them down slightly.
+    .nav-social li {
+        margin-top: 15px;
+    }
+
+    // We can also afford to increase the padding on the headline text due to
+    // the decrease in font size from the extra width.
+    .headline {
+        margin: 75px 0;
+    }
+}
+
+
+// Landscape Phone
+// ---------------
+
+@media (max-width: 767px) {
+    // We no longer want the social links on the right as it is now on its own
+    // line.
+    .footer .label.right {
+        // We also need to space it out from the previous column.
+        padding-top: 50px;
+        text-align: left;
+    }
+    .nav-social {
+        float: none;
+
+        // Change the margin to the left side to avoid an extra space.
+        li {
+            margin: 0 10px 0 0;
+        }
+    }
+}
+
