@@ -1,0 +1,32 @@
+// SPRITES
+// Glyphs and icons for buttons, nav, and more
+// -------------------------------------------
+
+
+// SOCIAL ICONS
+// ------------
+
+// All icons receive the styles of the <i> tag with a base class
+// of .icon-social and are then given a unique class to add width, height,
+// and background-position. Your resulting HTML will look like
+// <i class="icon-social-github"></i>.
+
+[class^="icon-social-"],
+[class*=" icon-social-"] {
+  display: inline-block;
+  .ie7-restore-right-whitespace();
+  width: 64px;
+  height: 64px;
+  line-height: 64px;
+  vertical-align: text-top;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+.icon-social-gplus { background-image: url("@{iconSocialPath}/googleplusalt.png"); }
+.icon-social-twitter { background-image: url("@{iconSocialPath}/twitter.png"); }
+.icon-social-facebook { background-image: url("@{iconSocialPath}/facebook.png"); }
+.icon-social-youtube { background-image: url("@{iconSocialPath}/youtube.png"); }
+.icon-social-github { background-image: url("@{iconSocialPath}/github.png"); }
+.icon-social-pinterest { background-image: url("@{iconSocialPath}/pinterest.png"); }
+

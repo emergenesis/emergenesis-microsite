@@ -350,13 +350,45 @@ address {
   font-style: normal;
   line-height: 28px;
 }
+[class^="icon-social-"],
+[class*=" icon-social-"] {
+  display: inline-block;
+  *margin-right: .3em;
+  width: 64px;
+  height: 64px;
+  line-height: 64px;
+  vertical-align: text-top;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+.icon-social-gplus {
+  background-image: url("/images/social-icons/64x64/googleplusalt.png");
+}
+.icon-social-twitter {
+  background-image: url("/images/social-icons/64x64/twitter.png");
+}
+.icon-social-facebook {
+  background-image: url("/images/social-icons/64x64/facebook.png");
+}
+.icon-social-youtube {
+  background-image: url("/images/social-icons/64x64/youtube.png");
+}
+.icon-social-github {
+  background-image: url("/images/social-icons/64x64/github.png");
+}
+.icon-social-flickr {
+  background-image: url("/images/social-icons/64x64/flickr.png");
+}
+.icon-social-pinterest {
+  background-image: url("/images/social-icons/64x64/pinterest.png");
+}
 body {
   margin: 0;
   padding: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 28px;
-  color: #333333;
+  color: #999999;
   background-image: url('/images/asfalt/asfalt.png');
   background-repeat: repeat;
 }
@@ -677,11 +709,42 @@ a:hover {
   width: 60px;
 }
 .headline {
-  margin: 30px 0;
+  margin: 15px 0;
   color: #ffffff;
   font-size: 80px;
-  line-height: 1.1;
+  line-height: 1.0;
 }
 .headline .emphasis {
   color: #7D99CF;
+}
+.footer .highlighted-project img {
+  border-radius: 10px;
+  background-color: #5b7290;
+  opacity: .9;
+  -webkit-transition: opacity 0.15s linear;
+  -moz-transition: opacity 0.15s linear;
+  -o-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+}
+.footer .highlighted-project img:hover {
+  opacity: .5;
+}
+.footer .span7 {
+  text-align: right;
+}
+.nav-social {
+  display: block;
+  height: 100px;
+  overflow: hidden;
+  margin: 0;
+}
+.nav-social li {
+  display: block;
+  list-style: none;
+  float: right;
+  margin: 17px 0 0 10px;
+  padding: 0;
+}
+.pull-right {
+  float: right;
 }
