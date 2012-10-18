@@ -69,6 +69,37 @@
     display: none !important;
   }
 }
+@media (max-width: 767px) {
+  [class^="icon-social-"],
+  [class*=" icon-social-"] {
+    display: inline-block;
+    *margin-right: .3em;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    vertical-align: text-top;
+    background-position: top left;
+    background-repeat: no-repeat;
+  }
+  .icon-social-gplus {
+    background-image: url("/images/social-icons/32/googleplusalt.png");
+  }
+  .icon-social-twitter {
+    background-image: url("/images/social-icons/32/twitter.png");
+  }
+  .icon-social-facebook {
+    background-image: url("/images/social-icons/32/facebook.png");
+  }
+  .icon-social-youtube {
+    background-image: url("/images/social-icons/32/youtube.png");
+  }
+  .icon-social-github {
+    background-image: url("/images/social-icons/32/github.png");
+  }
+  .icon-social-pinterest {
+    background-image: url("/images/social-icons/32/pinterest.png");
+  }
+}
 @media (min-width: 1200px) {
   .row {
     margin-left: -80px;
@@ -844,8 +875,15 @@
   }
 }
 @media (max-width: 767px) {
+  .topbar {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  .brand {
+    font-size: 24px;
+  }
   .footer .label.right {
-    padding-top: 50px;
+    padding-top: 30px;
     text-align: left;
   }
   .nav-social {

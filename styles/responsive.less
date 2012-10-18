@@ -15,6 +15,7 @@
 // ------------------
 
 @import "bootstrap/responsive-utilities.less";
+@import "responsive-sprites.less";
 
 
 // MEDIA QUERIES
@@ -52,11 +53,22 @@
 // ---------------
 
 @media (max-width: 767px) {
+    // We need to back off the page padding so the topbar is full-width.
+    .topbar {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+
+    // And the emergenesis name must be sized down so as not to wrap.
+    .brand {
+        font-size: 24px;
+    }
+
     // We no longer want the social links on the right as it is now on its own
     // line.
     .footer .label.right {
         // We also need to space it out from the previous column.
-        padding-top: 50px;
+        padding-top: 30px;
         text-align: left;
     }
     .nav-social {

@@ -362,22 +362,22 @@ address {
   background-repeat: no-repeat;
 }
 .icon-social-gplus {
-  background-image: url("/images/social-icons/64x64/googleplusalt.png");
+  background-image: url("/images/social-icons/64/googleplusalt.png");
 }
 .icon-social-twitter {
-  background-image: url("/images/social-icons/64x64/twitter.png");
+  background-image: url("/images/social-icons/64/twitter.png");
 }
 .icon-social-facebook {
-  background-image: url("/images/social-icons/64x64/facebook.png");
+  background-image: url("/images/social-icons/64/facebook.png");
 }
 .icon-social-youtube {
-  background-image: url("/images/social-icons/64x64/youtube.png");
+  background-image: url("/images/social-icons/64/youtube.png");
 }
 .icon-social-github {
-  background-image: url("/images/social-icons/64x64/github.png");
+  background-image: url("/images/social-icons/64/github.png");
 }
 .icon-social-pinterest {
-  background-image: url("/images/social-icons/64x64/pinterest.png");
+  background-image: url("/images/social-icons/64/pinterest.png");
 }
 body {
   margin: 0;
