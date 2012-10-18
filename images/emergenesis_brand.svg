@@ -16,33 +16,34 @@
    inkscape:version="0.48.2 r9819"
    style="display:inline"
    sodipodi:docname="emergenesis_brand.svg"
-   inkscape:export-filename="/home/joshua/Development/repos/emergenesis.com/public/images/emergenesis_logo.png"
-   inkscape:export-xdpi="27.375387"
-   inkscape:export-ydpi="27.375387">
+   inkscape:export-filename="/home/joshua/Development/repos/emergenesis-creative/emergenesis-brand/emergenesis_boxed_logo.png"
+   inkscape:export-xdpi="112.5"
+   inkscape:export-ydpi="112.5">
   <defs
      id="defs4" />
   <sodipodi:namedview
      id="base"
-     pagecolor="#2b436e"
+     pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.39607843"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.01"
-     inkscape:cx="73.089699"
+     inkscape:zoom="1.4566077"
+     inkscape:cx="59.010384"
      inkscape:cy="99.999999"
      inkscape:document-units="px"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="layer3"
      showgrid="false"
      inkscape:window-width="1366"
-     inkscape:window-height="736"
+     inkscape:window-height="716"
      inkscape:window-x="0"
-     inkscape:window-y="16"
+     inkscape:window-y="36"
      inkscape:window-maximized="0"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0.6"
-     fit-margin-bottom="0" />
+     fit-margin-bottom="0"
+     showborder="true" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -51,7 +52,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
